@@ -1,1 +1,1 @@
-A personal project where i created my own website. Availible at: https://johanneshelleve.github.io/JohannesH11/
+A personal project where i created my own website. Availible at: https://www.johannesh11.no/
