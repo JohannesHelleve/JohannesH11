@@ -54,4 +54,8 @@
     border-style: groove;
     height: 100px;
     width: 100px;
+    visibility: visible;
+}
+p{
+    visibility: visible;
 }
