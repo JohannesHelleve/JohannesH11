@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    display: block;
 }
 
 .frontpage{
@@ -52,10 +51,19 @@
 }
 .more{
     border-style: groove;
-    height: 100px;
-    width: 100px;
-    visibility: visible;
+    visibility: hidden;
+    position: fixed;
+    width: 50vw;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 100;
 }
-p{
-    visibility: visible;
+.moreInfo{
+    background-color: grey;
+    width: 150vw;
+    height: 150vh;
 }
+
+
+
