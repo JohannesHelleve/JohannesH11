@@ -49,21 +49,37 @@
 .left{
     left: 7.5%;
 }
-.more{
-    border-style: groove;
-    visibility: hidden;
+
+.fade{
     position: fixed;
-    width: 50vw;
     top: 0;
     bottom: 0;
-    overflow-y: scroll;
-    z-index: 100;
-}
-.moreInfo{
+    right: 0;
+    left: 0;
+    z-index: 101;
+    opacity: 0;
     background-color: grey;
-    width: 150vw;
-    height: 150vh;
+    transition: 1s ease-out;
+    pointer-events: none;
 }
+  
+.fade.is-active {
+    opacity: 1;
+    pointer-events: all;
+  }
 
+.slide{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background-color: grey;
+    transition: 0.5s ease-out;
+}
+.slide.is-active{
+    top: 0;
+}
 
 
