@@ -40,12 +40,12 @@ body::-webkit-scrollbar { /* WebKit */
 }
 .sticky{
     position: sticky;
-    top: 100px;
+    top: 50px;
 }
 .sticky h1{
     position: relative;
     color: var(--orange);
-    font-size: 300%;
+    font-size: 500%;
 }
 .project{
     height: 175vh;
@@ -56,6 +56,7 @@ body::-webkit-scrollbar { /* WebKit */
 .description{
     position: relative;
     background-color: var(--grey);
+    padding: 2%;
     border-radius: 5px;
 }
 .container{
@@ -103,5 +104,39 @@ body::-webkit-scrollbar { /* WebKit */
     object-fit: contain;
     position: absolute;
 }
-
+#resume{
+    width: 85%;
+    margin: 0 auto;
+    background-color: var(--grey);
+    height: 100vh;
+    position: relative;
+}
+#resume h1{
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    font-size: 400%;
+    color: var(--bone);
+}
+.resumeSection{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    background-color: var(--bone);
+    height: 75vh;
+    vertical-align: middle;
+}
+.resumeSection p{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    background-color: var(--orange);
+    top: 0px;
+}
+.vl{
+    display: inline-block;
+    border-left: 6px solid green;
+    height: 50%;
+    bottom: 0px;
+}
 
