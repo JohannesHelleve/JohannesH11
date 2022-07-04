@@ -46,6 +46,7 @@ body::-webkit-scrollbar { /* WebKit */
     position: relative;
     color: var(--orange);
     font-size: 500%;
+    font-weight: 400;
 }
 .project{
     height: 175vh;
@@ -74,6 +75,7 @@ body::-webkit-scrollbar { /* WebKit */
 }
 .description h1{
     color: var(--orange);
+    font-weight: 700;
 }
 .description p{
     color: var(--bone);
@@ -108,35 +110,66 @@ body::-webkit-scrollbar { /* WebKit */
     width: 85%;
     margin: 0 auto;
     background-color: var(--grey);
-    height: 100vh;
+    height: 200vh;
     position: relative;
 }
 #resume h1{
     width: fit-content;
     margin: 0 auto;
     position: relative;
-    font-size: 400%;
+    font-size: 600%;
     color: var(--bone);
+    font-weight: 400;
+    margin-bottom: 5%;
 }
 .resumeSection{
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     position: relative;
     background-color: var(--bone);
-    height: 75vh;
-    vertical-align: middle;
+    height: 100vh;
+    display: flex;
 }
-.resumeSection p{
-    display: inline-block;
+.resumeDescription{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+}
+.resumeDescription ul{
+    position: relative;
+    margin: 10% 5%;
+}
+.resumeDescription ul li{
+    margin-bottom: 10%;
+}
+.bold{
+    color: var(--orange);
+    -webkit-text-stroke: 1.5px black;
+    font-weight: 700;
+    font-size: 570%;
+    margin: 0% 2%;
+    overflow-wrap: break-word;
+}
+.notBold{
+    margin: 0% 2%;
+    color: black;
+    font-weight: 400;
+    font-size: 500%;
+    overflow-wrap: break-word;
+}
+.resumeHeader{
     height: 100%;
-    width: 30%;
+    width: 33%;
     background-color: var(--orange);
-    top: 0px;
-}
-.vl{
-    display: inline-block;
-    border-left: 6px solid green;
-    height: 50%;
-    bottom: 0px;
+    border-style: dashed;
 }
 
+.school{
+    margin: 5% 5% 0%;
+}
+.school h3{
+    font-size: 150%;
+}
+.school p{
+    margin-bottom: 5%;
+}
