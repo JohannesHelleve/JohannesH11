@@ -109,24 +109,28 @@ body::-webkit-scrollbar { /* WebKit */
 #resume{
     width: 85%;
     margin: 0 auto;
+    padding: 5% 0;
     background-color: var(--grey);
-    padding: 5% 0%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 #about h1{
     width: fit-content;
     margin: 0 auto;
     position: relative;
-    font-size: 1200%;
+    font-size: 1000%;
     color: var(--bone);
     font-weight: 400;
 }
 .resumeSection{
     width: 85%;
-    margin: 0 auto 5%;
+    margin: 0 auto;
     position: relative;
     background-color: var(--bone);
     display: flex;
+    border-style: dashed;
 }
 .resumeDescription{
     width: 66%;
@@ -172,3 +176,39 @@ body::-webkit-scrollbar { /* WebKit */
 .descriptionContainer{
     margin-top: 10%;
 }
+footer{
+    background-color: var(--orange);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#mail h1{
+    font-size: 800%;
+    color: var(--bone);
+    font-weight: 400;
+    padding-left: 5%;
+}
+#logos{
+    bottom: 0%;
+    position: absolute;
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logos ul{
+    color: var(--bone);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 auto;
+}
+#logos li{
+    margin: 0% 50%;
+    font-size: 150%;
+}
+
