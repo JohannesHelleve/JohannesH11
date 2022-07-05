@@ -108,13 +108,13 @@ body::-webkit-scrollbar { /* WebKit */
 }
 #resume{
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     padding: 5% 0;
     background-color: var(--grey);
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 4rem;
 }
 #about h1{
     width: fit-content;
@@ -130,7 +130,6 @@ body::-webkit-scrollbar { /* WebKit */
     position: relative;
     background-color: var(--bone);
     display: flex;
-    border-style: dashed;
 }
 .resumeDescription{
     width: 66%;
@@ -181,19 +180,21 @@ footer{
     width: 100%;
     height: 100vh;
     position: absolute;
+    display: block;
 }
 
 #mail h1{
     font-size: 800%;
     color: var(--bone);
     font-weight: 400;
-    padding-left: 5%;
+    margin: 5% 0%;
+    width: 85%;
 }
 #logos{
     bottom: 0%;
     position: absolute;
-    background-color: black;
-    height: 15%;
+    background-color: var(--orange);
+    height: 10%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -211,4 +212,5 @@ footer{
     margin: 0% 50%;
     font-size: 150%;
 }
+
 

@@ -23,7 +23,7 @@ window.onload = () => {
 
       setInterval(() => {
         window.location.href = target;
-      }, 650);
+      }, 650 );
     })
   }
 }
