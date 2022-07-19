@@ -257,10 +257,7 @@ footer h2{
     #resume{
         width: 100%;
     }
-    .resumeSection{
-        width: 100%;
-    }
     .resumeDescription ul{
-        margin-left: 10%cd ;
+        margin-left: 10%;
     }
 }
