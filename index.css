@@ -253,3 +253,8 @@ footer h2{
     background-color: white;
     color: black;
 }
+@media (max-width: 450px){
+    #resume{
+        width: 100%;
+    }
+}
