@@ -253,8 +253,14 @@ footer h2{
     background-color: white;
     color: black;
 }
-@media (max-width: 450px){
+@media (max-width: 800px){
     #resume{
         width: 100%;
+    }
+    .resumeSection{
+        width: 100%;
+    }
+    .resumeDescription ul{
+        margin-left: 10%cd ;
     }
 }
