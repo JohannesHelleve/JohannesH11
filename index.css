@@ -31,11 +31,11 @@ body::-webkit-scrollbar { /* WebKit */
     width: 40%;
 }
 .frontpage section h1{
-    font-size: 600%;
+    font-size: 7vw;
     font-weight: 400;
 }
 .frontpage p{
-    font-size: 200%;
+    font-size: 2vw;
     font-weight: 700;
 }
 
@@ -52,7 +52,7 @@ body::-webkit-scrollbar { /* WebKit */
 .sticky h1{
     position: relative;
     color: var(--orange);
-    font-size: 500%;
+    font-size: 5vw;
     font-weight: 400;
 }
 .project{
@@ -103,7 +103,7 @@ body::-webkit-scrollbar { /* WebKit */
     width: fit-content;
     margin: 0 auto;
     position: relative;
-    font-size: 1000%;
+    font-size: 5em;
     color: var(--bone);
     font-weight: 400;
 }
@@ -131,7 +131,7 @@ body::-webkit-scrollbar { /* WebKit */
     color: var(--orange);
     -webkit-text-stroke: 1.5px black;
     font-weight: 700;
-    font-size: 570%;
+    font-size: 5.7em;
     margin: 0% 2%;
     overflow-wrap: break-word;
 }
@@ -139,7 +139,7 @@ body::-webkit-scrollbar { /* WebKit */
     margin: 0% 2%;
     color: black;
     font-weight: 400;
-    font-size: 500%;
+    font-size: 5em;
     overflow-wrap: break-word;
 }
 .resumeHeader{
@@ -151,7 +151,7 @@ body::-webkit-scrollbar { /* WebKit */
     margin: 0% 5% 15%;
 }
 .descriptionDetails h3{
-    font-size: 150%;
+    font-size: 1.5em;
 }
 .descriptionDetails p{
     margin-bottom: 5%;
@@ -172,13 +172,13 @@ footer{
 }
 
 #mail h1{
-    font-size: 800%;
+    font-size: 8em;
     color: var(--bone);
     font-weight: 400;
     line-height: 1em ;
 }
 footer h2{
-    font-size: 250%;
+    font-size: 2.5em;
     color: var(--bone);
     font-weight: 400;
     position: relative;
@@ -206,7 +206,7 @@ footer h2{
 }
 #logos li{
     margin: 0% 50%;
-    font-size: 150%;
+    font-size: 1.5em;
 }
 #logos a{
     color: var(--bone);
@@ -228,7 +228,7 @@ footer h2{
     text-align: center;
     padding: 15px 35px;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 2em;
     mix-blend-mode: difference;
   }
   
@@ -238,7 +238,7 @@ footer h2{
       z-index: 100;
       padding: 15px 35px;
       color: white;
-      font-size: 200%;
+      font-size: 2em;
       mix-blend-mode: difference;
       padding-left: 7.5%;
   }
