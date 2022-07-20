@@ -261,6 +261,15 @@ footer h2{
         margin-left: 15%;
     }
     .resumeHeader h2{
-        font-size: 4em;
+        font-size: 3em;
+    }
+    .small{
+        font-size: 0.8em;
+    }
+    .descriptionContainer{
+        margin-top: 2.5%;
+    }
+    .bold{
+        -webkit-text-stroke: 1px black;
     }
 }
