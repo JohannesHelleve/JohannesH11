@@ -9,17 +9,14 @@ window.onload = () => {
 
   for (let i = 0; i < anchors.length; i++) {
     const anchor = anchors[i];
-    console.log(anchor);
     
     anchor.addEventListener('click', e => {
       e.preventDefault();
       let target = e.target.href;
 
-      console.log(transition_el);
 
       transition_el2.classList.add('is-active');
 
-      console.log(transition_el);
 
       setInterval(() => {
         window.location.href = target;
@@ -28,13 +25,27 @@ window.onload = () => {
   }
 }
 
+const mqLarge  = window.matchMedia( '(min-width: 800px)' );
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+  console.log(mqLarge);
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
+  if(mqLarge){
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-250px";
+    }
+    prevScrollpos = currentScrollPos;
+  }else{
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-250px";
+    }
+    prevScrollpos = currentScrollPos;
+
   }
-  prevScrollpos = currentScrollPos;
+
 }
