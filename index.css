@@ -282,4 +282,11 @@ footer h2{
     #logos ul{
         flex-direction: column;
     }
+    #navbar{
+        top: 2.5em;
+        transition: top 0.5s;
+    }
+    #name{
+        
+    }
 }

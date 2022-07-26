@@ -33,7 +33,7 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if(mqLarge){
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
+      document.getElementById("navbar").style.top = "2.5em";
     } else {
       document.getElementById("navbar").style.top = "-250px";
     }
