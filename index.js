@@ -25,15 +25,15 @@ window.onload = () => {
   }
 }
 
-const mqLarge  = window.matchMedia( '(min-width: 800px)' );
+const mqSmall  = window.matchMedia( '(max-width: 800px)' );
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  console.log(mqLarge);
+  console.log(mqSmall);
   var currentScrollPos = window.pageYOffset;
-  if(mqLarge){
+  if(mqSmall){
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "2.5em";
+      document.getElementById("navbar").style.top = "3em";
     } else {
       document.getElementById("navbar").style.top = "-250px";
     }

@@ -243,7 +243,8 @@ footer h2{
       color: white;
       font-size: 2em;
       mix-blend-mode: difference;
-      padding-left: 7.5%;
+      border-style: dashed;
+      
   }
 .description a{
     background-color: black;
@@ -283,10 +284,11 @@ footer h2{
         flex-direction: column;
     }
     #navbar{
-        top: 2.5em;
+        top: 3em;
         transition: top 0.5s;
     }
     #name{
-        
+        width: 100%;
+        text-align: center;
     }
 }
