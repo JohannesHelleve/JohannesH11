@@ -25,27 +25,33 @@ window.onload = () => {
   }
 }
 
-const mqSmall  = window.matchMedia( '(max-width: 800px)' );
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  console.log(mqSmall);
   var currentScrollPos = window.pageYOffset;
-  if(mqSmall){
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "3em";
-    } else {
-      document.getElementById("navbar").style.top = "-250px";
-    }
-    prevScrollpos = currentScrollPos;
-  }else{
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
+     document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-250px";
     }
     prevScrollpos = currentScrollPos;
 
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
   }
-
 }

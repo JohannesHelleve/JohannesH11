@@ -17,15 +17,28 @@
 <body>
     <div class="fade is-active"></div>
     <div class="slide"></div>
-    <div id="name">
-        <p>Johannes Helleve</p> 
-    </div>
-    <div id="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </div>
+    <header>
+        <div id="name">
+            <p>Johannes Helleve</p> 
+        </div>
+        <div id="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+                <img id="menu_logo" src="./pictures/menu_logo.png"/>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+    </header>
     <div class="frontpage">
+
         <section>
             <h1>Hi,</h1>
             <p>i am</p>
