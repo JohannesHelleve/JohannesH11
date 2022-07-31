@@ -38,20 +38,12 @@ window.onscroll = function() {
 
 }
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+menu = () => {
+  var status =  document.getElementById('dropdown-content');
+  if(status.style.visibility === "visible"){
+    status.style.visibility = "hidden";
+  }else{
+    status.style.visibility = "visible";
   }
+  console.log("test");
 }
