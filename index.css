@@ -242,7 +242,6 @@ footer h2{
       color: white;
       font-size: 2em;
       mix-blend-mode: difference;
-      border-style: dashed;
       height: 2.5em;
       position: fixed;
       margin-left: 7.5% ;
@@ -265,7 +264,7 @@ footer h2{
   
 @media (max-width: 800px){
     #resume{
-        width: 90vh;
+        width: 100%;
         margin-bottom: 100%;
     }
     .resumeDescription ul{
