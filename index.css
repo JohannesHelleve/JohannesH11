@@ -240,11 +240,11 @@ footer h2{
       z-index: 100;
       padding: 15px 35px;
       color: white;
-      font-size: 2.5em;
+      font-size: 2em;
       mix-blend-mode: difference;
       height: 2.5em;
       position: fixed;
-      margin-left: 7.5% ;
+      margin-left: 5% ;
   }
 .description a{
     background-color: black;
