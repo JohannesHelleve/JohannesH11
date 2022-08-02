@@ -167,8 +167,9 @@ footer{
     display: block;
 }
 #mail{
-    margin: 0 auto;
+    margin: 7.5% auto;
     width: 90vw;
+    
 }
 
 #mail h1{
@@ -298,7 +299,7 @@ footer h2{
         font-size: 3em;
     }
     footer h2{
-        top: 10vh;
+        top: 5vh;
         font-size: 1.5em;
     }
     #logos ul{
