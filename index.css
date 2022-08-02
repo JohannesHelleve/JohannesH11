@@ -240,7 +240,7 @@ footer h2{
       z-index: 100;
       padding: 15px 35px;
       color: white;
-      font-size: 2em;
+      font-size: 2.5em;
       mix-blend-mode: difference;
       height: 2.5em;
       position: fixed;
@@ -265,7 +265,7 @@ footer h2{
 @media (max-width: 800px){
     #resume{
         width: 100%;
-        margin-bottom: 100%;
+        margin-bottom: 50%;
     }
     .resumeDescription ul{
         margin-left: 15%;
@@ -291,7 +291,7 @@ footer h2{
         margin: 0;
     }
     #mail h1{
-        font-size: 4em;
+        font-size: 3em;
         margin-top: 15vh;
     }
     footer h2{
