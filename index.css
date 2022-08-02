@@ -289,6 +289,7 @@ footer h2{
         width: 100%;
         text-align: center;
         margin: 0;
+        padding: 0;
     }
     #mail h1{
         font-size: 3em;
