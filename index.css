@@ -175,8 +175,11 @@ footer{
     font-size: 7em;
     color: var(--bone);
     font-weight: 400;
-    line-height: 1em ;
+    margin: 0;
+    position: relative;
 }
+
+
 footer h2{
     font-size: 2.5em;
     color: var(--bone);
@@ -293,7 +296,6 @@ footer h2{
     }
     #mail h1{
         font-size: 3em;
-        margin-top: 15vh;
     }
     footer h2{
         top: 10vh;
