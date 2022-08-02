@@ -91,7 +91,7 @@ body::-webkit-scrollbar { /* WebKit */
 #resume{
     width: 85%;
     margin: 0 auto 5%;
-    padding: 5% 0;
+    padding: 7.5% 0;
     background-color: var(--grey);
     position: relative;
     display: flex;
@@ -172,7 +172,7 @@ footer{
 }
 
 #mail h1{
-    font-size: 8em;
+    font-size: 7em;
     color: var(--bone);
     font-weight: 400;
     line-height: 1em ;
@@ -244,6 +244,8 @@ footer h2{
       mix-blend-mode: difference;
       border-style: dashed;
       height: 2.5em;
+      position: fixed;
+      margin-left: 7.5% ;
   }
 .description a{
     background-color: black;
@@ -256,59 +258,15 @@ footer h2{
     background-color: white;
     color: black;
 }
-#dropdown{
-    width: 10%;
-}
-img{
-    max-width: 100%;
-}
-header{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    border-style: dashed;
-    align-items: flex-end;
-    z-index: 200;
-    align-items: flex-start;
-}
-#dropdown-btn{
-    width: 10%;
-    border-style: dashed;
-    visibility: hidden;
-}
-button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-}
-img{
-    mix-blend-mode: difference;
-}
-#dropdown-content{
-    display: flex;
-    flex-direction: column;
-    visibility: hidden;
-    mix-blend-mode: difference;
-}
-#dropdown-content a{
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-    font-size: 1.5em;
-    mix-blend-mode: difference;
-}
-#dropdown{
- border-style: dashed;
-}
+
+
 
 
   
 @media (max-width: 800px){
     #resume{
-        width: 100px;
+        width: 90vh;
+        margin-bottom: 100%;
     }
     .resumeDescription ul{
         margin-left: 15%;
@@ -326,25 +284,24 @@ img{
         -webkit-text-stroke: 1px black;
     }
     #navbar{
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    #logos ul{
-        flex-direction: column;
-    }
-    #navbar{
         visibility: hidden;
     }
     #name{
         width: 100%;
         text-align: center;
+        margin: 0;
     }
-    header{
+    #mail h1{
+        font-size: 4em;
+        margin-top: 15vh;
+    }
+    footer h2{
+        top: 10vh;
+        font-size: 1.5em;
+    }
+    #logos ul{
         flex-direction: column;
-        align-items: flex-end;
     }
-    #dropdown-btn{
-        visibility: visible;
-    }
+    
    
 }
