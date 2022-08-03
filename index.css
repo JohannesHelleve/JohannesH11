@@ -221,7 +221,6 @@ footer h2{
   #name{
       z-index: 100;
       color: white;
-      font-size: 3vw;
       mix-blend-mode: difference;
       position: fixed;
       margin-left: 5% ;
@@ -257,7 +256,9 @@ p{
 .small{
     font-size: 1.25vw;
 }
-
+#name p{
+    font-size: 3vw;
+}
 
   
 @media only screen and (max-width: 849px){
