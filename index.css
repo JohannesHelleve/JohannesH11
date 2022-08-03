@@ -24,11 +24,10 @@ body::-webkit-scrollbar { /* WebKit */
     height: 0;
 }
 .frontpage section{
-    left: 7.5%;
+    left: 5%;
     top: 30vh;
     position: absolute;
     color: var(--bone);
-    width: 40%;
 }
 .frontpage section h1{
     font-size: 7vw;
@@ -47,7 +46,7 @@ body::-webkit-scrollbar { /* WebKit */
 }
 .sticky{
     position: sticky;
-    top: 7.5%;
+    top: 12.5%;
 }
 .sticky h1{
     position: relative;
@@ -75,10 +74,10 @@ body::-webkit-scrollbar { /* WebKit */
 }
 
 .right{
-    right: 7.5%;
+    right: 5%;
 }
 .left{
-    left: 7.5%;
+    left: 5%;
 }
 .description h1{
     color: var(--orange);
@@ -89,9 +88,9 @@ body::-webkit-scrollbar { /* WebKit */
 }
 
 #resume{
-    width: 85%;
+    width: 90%;
     margin: 0 auto 5%;
-    padding: 7.5% 0;
+    padding: 5% 0;
     background-color: var(--grey);
     position: relative;
     display: flex;
@@ -108,12 +107,11 @@ body::-webkit-scrollbar { /* WebKit */
     font-weight: 400;
 }
 .resumeSection{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
     background-color: var(--bone);
     display: flex;
-    z-index: ;
 }
 .resumeDescription{
     width: 66%;
@@ -226,7 +224,7 @@ footer h2{
       font-size: 3vw;
       mix-blend-mode: difference;
       position: fixed;
-      margin-left: 7.5% ;
+      margin-left: 5% ;
       margin-top: 2.5%;
   }
 .description a{
@@ -304,6 +302,12 @@ footer h2{
     }
     #logos a{
         font-size: 5vw;
+    }
+    .sticky{
+        top: 10%;
+    }
+    .sticky h1{
+        font-size: 7.5vw;
     }
 }
 @media (min-width: 1250px){
