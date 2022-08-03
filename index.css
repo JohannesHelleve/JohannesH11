@@ -129,7 +129,7 @@ body::-webkit-scrollbar { /* WebKit */
     color: var(--orange);
     -webkit-text-stroke: 1.5px black;
     font-weight: 700;
-    font-size: 5.7em;
+    font-size: 8vw;
     margin: 0% 2%;
     overflow-wrap: break-word;
 }
@@ -137,7 +137,7 @@ body::-webkit-scrollbar { /* WebKit */
     margin: 0% 2%;
     color: black;
     font-weight: 400;
-    font-size: 5em;
+    font-size: 7vw;
     overflow-wrap: break-word;
 }
 .resumeHeader{
@@ -149,7 +149,7 @@ body::-webkit-scrollbar { /* WebKit */
     margin: 0% 5% 15%;
 }
 .descriptionDetails h3{
-    font-size: 1.5em;
+    font-size: 2vw;
 }
 .descriptionDetails p{
     margin-bottom: 5%;
@@ -251,7 +251,12 @@ footer h2{
 #fourth{
     display: inline-block;
 }
-
+p{
+    font-size: 1.5vw;
+}
+.small{
+    font-size: 1.25vw;
+}
 
 
   
@@ -266,9 +271,15 @@ footer h2{
     .resumeHeader h2{
         font-size: 3em;
     }
-    .small{
-        font-size: 0.8em;
-    }
+   .small{
+    font-size: 2vw;
+   }
+   .descriptionDetails h3{
+    font-size: 5vw;
+   }
+   p{
+    font-size: 2.5vw;
+   }
     .descriptionContainer{
         margin-top: 2.5%;
     }
