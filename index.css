@@ -259,6 +259,9 @@ p{
 #name p{
     font-size: 3vw;
 }
+li{
+    font-size: 1.5vw;
+}
 
   
 @media only screen and (max-width: 849px){
@@ -273,13 +276,16 @@ p{
         font-size: 3em;
     }
    .small{
-    font-size: 2vw;
+    font-size: 2.5vw;
    }
    .descriptionDetails h3{
     font-size: 5vw;
    }
    p{
-    font-size: 2.5vw;
+    font-size: 3vw;
+   }
+   li{
+    font-size: 3vw;
    }
    #name p{
     font-size: 8vw;
