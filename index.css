@@ -40,7 +40,7 @@ body::-webkit-scrollbar { /* WebKit */
 
 .detail{
     background-color: var(--bone);
-    height: 100%;
+    height: 99.9999%;
     width: 50%;
     position: absolute;
 }
@@ -55,7 +55,7 @@ body::-webkit-scrollbar { /* WebKit */
     font-weight: 400;
 }
 .project{
-    height: 175vh;
+    height: 200vh;
     position: relative;
     margin-bottom: 5%;
 }
@@ -70,7 +70,7 @@ body::-webkit-scrollbar { /* WebKit */
     position: absolute;
     width: 30%;
     top: 0;
-    height: 175vh;
+    height: 200vh;
 }
 
 .right{
@@ -262,6 +262,31 @@ p{
 li{
     font-size: 1.5vw;
 }
+.square{
+    height: 33.3333333333333333333333333333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-weight: 400;
+    font-size: 3vw;
+    }
+.square p{
+    font-size: 2vw;
+    text-align: center;
+}
+#orange{
+    background-color: var(--orange);
+    color: white;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#white{
+    background-color: white;
+    color: orange;
+}
 
   
 @media only screen and (max-width: 849px){
@@ -299,13 +324,28 @@ li{
     #logos li{
         font-size: 5vw;
     }
-
+    .detail{
+        width: 42.5%;
+    }
+    .container{
+        width: 42.5%;
+    }
+    .project{
+        height: 100vh;
+        margin-bottom: 20%;
+    }
     #name{
         width: 100%;
         text-align: center;
         margin: 0;
         padding: 0;
         margin-top: 5%;
+    }
+    .square p{
+        font-size: 3.5vw;
+    }
+    .container{
+        height: 100vh;
     }
     #mail h1{
         font-size: 17vw;
@@ -330,7 +370,16 @@ li{
         top: 7.5%;
     }
     .sticky h1{
-        font-size: 7.5vw;
+        font-size: 9vw;
+    }
+    .frontpage section{
+        top: 50vh;
+    }
+    .frontpage section h1{
+        font-size: 15vw;
+    }
+    .frontpage p{
+        font-size: 8vw;
     }
 }
 @media (min-width: 1250px){
