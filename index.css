@@ -285,7 +285,7 @@ li{
 }
 #white{
     background-color: white;
-    color: orange;
+    color: var(--orange);
 }
 
   
