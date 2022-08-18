@@ -1,5 +1,5 @@
 window.onload = () => {
-  const anchors = document.querySelectorAll('a');
+  const anchors = document.querySelectorAll('a.animation');
   const transition_el = document.querySelector('.fade');
   const transition_el2 = document.querySelector(".slide")
 
